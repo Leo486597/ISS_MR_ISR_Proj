@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API_TEST/WEB_API_TEST.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/WEB_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/WEB_API.csproj",
+        "projectName": "WEB_API",
+        "projectPath": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/WEB_API.csproj",
+        "packagesPath": "/Users/leo/.nuget/packages/",
+        "outputPath": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Aspose.HTML": {
+              "target": "Package",
+              "version": "[20.4.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API_TEST/WEB_API_TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API_TEST/WEB_API_TEST.csproj",
+        "projectName": "WEB_API_TEST",
+        "projectPath": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API_TEST/WEB_API_TEST.csproj",
+        "packagesPath": "/Users/leo/.nuget/packages/",
+        "outputPath": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API_TEST/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/WEB_API.csproj": {
+                "projectPath": "/Volumes/Tardisk/Documents/repository/dotnet/ISS_MR_ISR_Proj/WEB_API/WEB_API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
